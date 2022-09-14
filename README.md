@@ -2,7 +2,7 @@
 
 Search for your favorite giphies!
 
-[!Landing Page](/src/assets/LandingPage.png)
+![Landing Page](/src/assets/LandingPage.png)
 
 Top of the page
 * Inputted fields will form the query paramter for the api call
@@ -11,6 +11,6 @@ Top of the page
 Bottom of the page
 * Displays the search results
 
-[!After searching](/src/assets/Searched.png)
+![After searching](/src/assets/Searched.png)
 
 
