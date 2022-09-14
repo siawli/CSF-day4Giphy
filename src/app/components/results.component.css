@@ -1,0 +1,14 @@
+img {
+    height: 300px;
+    width: 300px;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.title {
+    text-align: center;
+}

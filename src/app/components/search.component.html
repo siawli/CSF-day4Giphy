@@ -1,0 +1,60 @@
+<div class="title">
+    <h3>Search Giphy</h3>
+</div>
+
+<div>
+    <form [formGroup]="form" (ngSubmit)="processForm()">
+        <table>
+            <tr>
+                <td>
+                    <label for="api">API: </label>
+                </td>
+                <td>
+                    <input type="text" id="api" formControlName="api">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="search">Search: </label>
+                </td>
+                <td>
+                    <input type="text" id="search" formControlName="search">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="limit">Limit: </label>
+                </td>
+                <td>
+                    <select id="limit" formControlName="limit">
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                        <option value="25">25</option>
+                        <option value="30">30</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="rating">Rating: </label>
+                </td>
+                <td>
+                    <select id="rating" formControlName="rating">
+                        <option value="g">g</option>
+                        <option value="20">pg</option>
+                        <option value="pg-13">pg-13</option>
+                        <option value="r">r</option>
+                    </select>
+                </td>
+            </tr>
+            <tr> 
+                <td></td>
+                <td class="button">
+                    <button type="submit" [disabled]="form.invalid">Search</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

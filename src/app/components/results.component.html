@@ -1,0 +1,11 @@
+<div *ngIf="images.length > 0">
+    <div class="title">
+        <h3>Giphy Search Results</h3>
+    </div>
+
+    <div id="images">
+        <div *ngFor="let img of images" class="img">
+            <img [src]="img">
+        </div>
+    </div>
+</div>

@@ -1,27 +1,16 @@
-# Day4Giphy
+## Giphy Assignment
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+Search for your favorite giphies!
 
-## Development server
+[!Landing Page](/src/assets/LandingPage.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Top of the page
+* Inputted fields will form the query paramter for the api call
+* Search button: Disabled until all fields have passed internal validation. After clicking: API field not cleared; remaining fields back to default
 
-## Code scaffolding
+Bottom of the page
+* Displays the search results
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[!After searching](/src/assets/Searched.png)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
